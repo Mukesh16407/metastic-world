@@ -11,12 +11,17 @@ exports.createUser = async (req, res) => {
         return res.status(404).json({ error: "Parent user not found" });
       }
     }
+    const level = parentId ? parent.level + 1 : 0;
 
-    const user = new User({ name, parent });
+    if (level > 8) {
+      return res.status(400).send({ error: "Maximum level reached" });
+    }
+
+    const user = new User({ name, parentId, level });
     await user.save();
 
-    res.status(201).json(user);
+    res.status(201).send(user);
   } catch (err) {
-    res.status(500).json({ error: "Internal server error" });
+    res.status(400).send({ error: err.message });
   }
 };
