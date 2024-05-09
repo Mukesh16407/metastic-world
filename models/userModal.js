@@ -3,7 +3,7 @@ const { ObjectId } = mongoose.Schema;
 
 const userSchema = new mongoose.Schema({
   name: {
-    String,
+    type: String,
     required: true,
   },
   level: {
