@@ -37,13 +37,13 @@ return level,  message, distrubution and remaining Amount
 ### distrubution
 If leve 8 have  rs-10000
 
-######level7-0.4% TotalAmount
-######level6-0.2% TotalAmount
-######level5-0.1% TotalAmount
-#####level4-0.05% TotalAmount
-#####level3-0.01% TotalAmount
-#####level2-0.01% TotalAmount
-#####level1-0.01% TotalAmount
-#####level0-0.01% TotalAmount
+level7-0.4% TotalAmount
+level6-0.2% TotalAmount
+level5-0.1% TotalAmount
+level4-0.05% TotalAmount
+level3-0.01% TotalAmount
+level2-0.01% TotalAmount
+level1-0.01% TotalAmount
+level0-0.01% TotalAmount
 
 
