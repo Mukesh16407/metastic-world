@@ -24,7 +24,9 @@ Post /api/users
 
 return name, level and parentId
 
-### Post /api/distribute
+### Post 
+....http
+/api/distribute
 
 | Parameter          |   Type            |     Description   |
 |:------------------ | :-----------------|:------------------|
@@ -32,9 +34,9 @@ return name, level and parentId
 |     amount          | Number           | **Required **     |
 
 return level,  message, distrubution and remaining Amount
-
-If leve 8 have  rs-10000
 ### distrubution
+If leve 8 have  rs-10000
+
 level7-0.4% TotalAmount
 level6-0.2% TotalAmount
 level5-0.1% TotalAmount
