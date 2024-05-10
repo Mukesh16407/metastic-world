@@ -9,6 +9,11 @@ To run this API, you'll need the following:
 * Node.js and npm (or yarn) installed on your system -> npm start
 * MongoDB database running on a remote server
 
+## Start Backend Local Server
+npm start
+## Start Front Local Server
+npm run dev
+
 
 ### API Reference
 
