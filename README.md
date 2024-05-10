@@ -56,14 +56,14 @@ If leve 8 have  rs-10000|
 | level6-0.2% TotalAmount |
 | level5-0.1% TotalAmount |
 | level4-0.05% TotalAmount|
-|level3-0.01% TotalAmount |
-|level2-0.01% TotalAmount |
-|level1-0.01% TotalAmount |
-|level0-0.01% TotalAmount |
+| level3-0.01% TotalAmount |
+| level2-0.01% TotalAmount |
+| level1-0.01% TotalAmount |
+| level0-0.01% TotalAmount |
 
 ### Backend Deploy Link
 https://metastic-world.onrender.com
 
 ### Frontend Deploy Link
-creative-cuchufli-a7867b.netlify.app/
+https://creative-cuchufli-a7867b.netlify.app/
 
